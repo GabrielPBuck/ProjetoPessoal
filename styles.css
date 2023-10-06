@@ -1,0 +1,215 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	height: 10vh;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+		
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: rgba(166,166,166,1.00);
+}
+
+main{
+	display: flex;
+	height: 90vh;
+	width: 100%;
+}
+
+footer{
+	padding: 0;
+	margin: 0;
+	align-content: center;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);	
+	color: #ffffff;
+}
+
+
+/*----------------------Barra de Navegação-------------------------------*/
+
+.profile{    
+  height: 10vh;
+  margin-left: 5vw;
+}
+
+.profilevines{
+	position: absolute;	
+	transition: opacity 2s ease-in-out;
+}
+
+.profilevines img{
+	margin-top: 0.5vh;
+	height: 9vh;
+	width: 9.5vh;	
+}
+
+.profilevines:hover{
+  opacity: 0;
+  transition: opacity 3s ease-in-out;	
+}
+
+.profilepic{
+	height: 9vh;
+}
+
+.profilepic img{	
+	margin: 1vh;
+	width: 8vh;
+	border-radius: 30%;	
+	box-shadow:  0 0 20px rgba(0, 0, 0, 5);	
+}
+
+.email{ 
+ 	display: flex;
+	align-items: center;
+	
+}
+
+.email a{
+  font-size: 20px;
+  color: white;
+  margin: 2vh; 
+  text-decoration: none;  
+  text-shadow: 5px 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+.nav-txt { 
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  margin-right: 16vw;	
+}
+
+.nav-txt a {
+  font-size: 20px;
+  color: white;
+  margin: 2vh; 
+  text-decoration: none;  
+  text-shadow: 5px 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+.nav-txt a:hover {
+  color: #ffffff;
+  transform: scale(1.1);	
+  transition: color 0.3s, transform 0.3s;
+}
+
+/*----------------------Barra Lateral-------------------------------*/
+
+.barralateral{	
+	height: 90vh;
+	width: 30vh;
+	background-color: rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);	
+	text-align: center;	
+	color: white;
+	font-size: 1.5rem;
+	
+	
+}
+
+.barralateral-txt{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 85vh;
+	padding-top: 5vh;	
+	}
+
+.barralateral a{	
+ 	text-decoration: none;
+	color: white;	
+}
+
+
+
+
+
+
+
+/*--------------------------------Main-----------------------------*/
+
+.caixa{		
+	display: flex;
+	align-content: center;
+	margin: 2.5vw 2.5vw 1vw 2.5vw;    		
+	padding: 20px;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.2);
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+	width: 100vw;
+}
+.caixa-interna{ 
+	display: flex;
+	align-content: center;
+	margin-left: 5%;	
+}
+
+.caixa-img {
+    position: relative; /* Defina o contêiner pai como relativo */
+    height: 85vh;
+	opacity: 0.3;	
+}
+
+.caixa-img img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40vw;
+}
+
+.caixa-txt{	 
+	display: flex;	
+	align-items: center;	
+	margin-left: 30%;	
+}
+	
+.caixa-txt strong{	
+	color: #363636;
+	font-size: 3vw;	
+	
+}
+
+.caixa-txt a{	
+	color: #ffffff;
+	font-size: 1.6vw;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
